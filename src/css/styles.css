@@ -1,0 +1,37 @@
+/* COLOR VARIABLES */
+/* FONT SIZE */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: 4rem;
+}
+
+.title {
+  font-size: 4.4rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

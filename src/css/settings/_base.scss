@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $font-base;
+  color: $primary-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+small {
+  font-size: $font-small;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: 4rem;
+}
+
+.title {
+  font-size: 4.4rem;
+  text-align: center;
+}
