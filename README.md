@@ -20,3 +20,12 @@ relevant to that search.
 - User sees a list of movies based on their search
 - User can preview movies
 
+## Application Build
+- [x] Setup environment with default styling
+- [x] Search Movie component with styling
+    - [x] Create search form with a class of form.
+    - [x] Create a label with htmlFor="query" with a class of label.
+    - [x] Create an input of a type of text with a name of "query" and a placeholder. 
+    - [x] Create a button with class of button, and a type of submit.
+    - [x] Make component responsive.
+    
