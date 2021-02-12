@@ -33,5 +33,57 @@ small {
   font-size: 4.4rem;
   text-align: center;
 }
+.title__sub {
+  text-align: center;
+}
+
+.form {
+  display: grid;
+}
+.form__label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.form__input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+}
+.form__input:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+.form__input:focus {
+  outline: none;
+}
+.form__button {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 2ms;
+}
+.form__button:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media (min-width: 786px) {
+  .form {
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+  .form__input {
+    margin-bottom: 0;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,52 @@
+.form {
+  display: grid;
+
+  &__label {
+    font-size: $font-small;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__input {
+    font-size: $font-base;
+    padding: .5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+    &:hover {
+      background-color: #fff;
+      box-shadow: 0 1px 6px rgba(32,33,36,.28);
+      border-color: rgba(223,225,229,0);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__button {
+    background-color: $button-background-color;
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px solid $button-background-color;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 2ms;
+    &:hover {
+      background-color: $button-background-hover-color;
+    }
+  }
+}
+
+@media (min-width: 786px) {
+  .form {
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+
+    &__input {
+      margin-bottom: 0;
+    }
+  }
+}
