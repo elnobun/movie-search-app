@@ -28,4 +28,8 @@ relevant to that search.
     - [x] Create an input of a type of text with a name of "query" and a placeholder. 
     - [x] Create a button with class of button, and a type of submit.
     - [x] Make component responsive.
+- [x] Make request to movie API
+    - [x] Create a function using async/await to fetch data from the API.
+    - [ ] Create application state (Hooks) to keep track of user input. 
+    - [ ] Create application state (Hooks) to keep track of the data from the API. 
     
