@@ -15,7 +15,7 @@
     border: 1px solid #ddd;
     margin-bottom: 1.5rem;
     &:hover {
-      background-color: #fff;
+      background-color: white;
       box-shadow: 0 1px 6px rgba(32,33,36,.28);
       border-color: rgba(223,225,229,0);
     }
@@ -33,6 +33,9 @@
     font-size: 1.4rem;
     cursor: pointer;
     transition: background-color 2ms;
+    &:focus {
+      outline: none;
+    }
     &:hover {
       background-color: $button-background-hover-color;
     }
