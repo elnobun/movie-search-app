@@ -30,6 +30,11 @@ relevant to that search.
     - [x] Make component responsive.
 - [x] Make request to movie API
     - [x] Create a function using async/await to fetch data from the API.
-    - [ ] Create application state (Hooks) to keep track of user input. 
-    - [ ] Create application state (Hooks) to keep track of the data from the API. 
+    - [x] Create application state (Hooks) to keep track of user input. 
+    - [x] Create application state (Hooks) to keep track of the data from the API.
+- [x] Display the movies to the DOM
+    - [x] Create a card component for each movie
+    - [x] Filter and get only movies that have images
+    - [x] Add the image, title, release date, rating and description to the card
+    - [ ] Beautify Card UI
     
