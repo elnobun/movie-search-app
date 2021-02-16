@@ -36,5 +36,5 @@ relevant to that search.
     - [x] Create a card component for each movie
     - [x] Filter and get only movies that have images
     - [x] Add the image, title, release date, rating and description to the card
-    - [ ] Beautify Card UI
+    - [x] Style movie card
     
